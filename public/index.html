@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server NodeJS API Rest</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Servidor NodeJS</h1>
+    <div class="container mt-3">
+        <div class="jumbotron bg-light">
+          <form action="/libros" method="post">
+            <label for="titulo">Titulo:</label>
+            <input class="form-control" type="text" name="titulo" id="titulo">
+            <br>
+            
+            <label for="autor">Autor:</label>
+            <input class="form-control" type="text" name="autor" id="autor">
+            <br>
+            
+            <label for="anio">Año:</label>
+            <input class="form-control" type="text" name="anño" id="anio">
+            
+            <button class="btn btn-success mt-3">Enviar</button>
+          </form>
+     </div>
+    </div>
+    
+  
+</body>
+</html>
